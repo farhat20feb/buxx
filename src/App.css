@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.banner{
+  background:#924284; 
+}
+.navbar-default{
+  background:linear-gradient(to bottom, #944384 0%, #924284 100%)!important; 
+  border:none!important; 
+  padding-top: 30px;
+}
+.logo-title{
+  color:#fff!important;
+  font-weight: 600;
+  font-size:25px;
+}
+.navbar-nav>li>a{
+  color:#DCC2D7!important;
+  font-size: 11px;
+}
+.signup{
+  background: #AB77A2;
+    border-radius: 25px;
+    height: 30px;
+    padding-top: 6px;
+    margin-top: 10px;
+}
+.banner-heading{
+  color:#fff;
+  font-weight: 400;
+  padding-top: 4em;
+  font-size: 2em;
+}
+.banner-subheading{
+  color:#D2C2D6;
+  font-size: 1.1em;
+}
+.search-box{
+  width:300px;
+  padding: 10px;
+  border-radius: 30px;
+
+}
+.signup a{
+  margin-top: -15px;
+}
+#formValidationSuccess3{
+  border-radius: 25px;
+  height: 50px;
+  padding-left: 25px;
+}
+.form-control-feedback{
+  width: 100px;
+    margin-top: 9px;
+    border-radius: 22px;
+    margin-right:10px;
+    background: #F8AA42;
+    border: 0px;
+    color:#fff!important;
+}
+.canvs{
+  height:370px!important;
+  background: linear-gradient(to bottom, #944384 0%, #674681 100%);
+}
+.feature{
+  background: #fff;
+  padding-bottom: 190px;
+  padding-top: 60px;
+}
+.three-feature{
+  margin-left: 20px;
+  font-size: 4em;
+  color: #614781;
+}
+.getstart{
+  background: #FAFAFA;
+  padding-bottom: 190px;
+}
+.startbutton{
+  padding: 20px 20px 20px 20px;
+  font-size: x-large;
+  border-radius: 42px;
+  font-weight: bolder;
+  background: linear-gradient(to right, #8E4384 , #2C4C7D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  bottom: 116px;
+}
+#featuregrid{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+code{
+  background-color:initial!important;
+}
+.wallet{
+  background: #fff;
+}
+.startimg{
+  text-align: center;
+  background: #FFFFFF;
+  padding: 20px;
+  border: 2px solid #e8e5e5;
+  border-radius: 21px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
