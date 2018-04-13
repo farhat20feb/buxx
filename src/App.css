@@ -1,32 +1,15 @@
-.App {
-  text-align: center;
-}
 body{
   font-family: 'Open Sans', sans-serif;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
 }
-
 code{
   font-family: 'Open Sans', sans-serif!important;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+  background-color:initial!important;
 }
 .banner{
   background:#924284; 
@@ -74,7 +57,6 @@ code{
   width:300px;
   padding: 10px;
   border-radius: 30px;
-
 }
 .signup a{
   margin-top: -15px;
@@ -86,15 +68,15 @@ code{
 }
 .form-control-feedback{
   width: 100px;
-    margin-top: 9px;
-    border-radius: 22px;
-    margin-right:10px;
-    background: linear-gradient(to right, #f9b54a 0%, #f89132 100%);
-    border: 0px;
-    color:#fff!important;
-    font-family: serif;
-    font-size: 13px;
-    font-weight: 500;
+  margin-top: 9px;
+  border-radius: 22px;
+  margin-right:10px;
+  background: linear-gradient(to right, #f9b54a 0%, #f89132 100%);
+  border: 0px;
+  color:#fff!important;
+  font-family: serif;
+  font-size: 13px;
+  font-weight: 500;
 }
 .canvs{
   height:370px!important;
@@ -140,9 +122,6 @@ code{
   padding-bottom: 60px;
   text-align: center;
 }
-code{
-  background-color:initial!important;
-}
 .wallet{
   background: #fff;
   padding-bottom: 30em;
@@ -150,8 +129,8 @@ code{
 .startimg{
   text-align: center;
   background: #FFFFFF;
-  padding: 20px;
-  border: 2px solid #e8e5e5;
+  padding: 46px 35px 35px 42px;
+  box-shadow: 1px 1px 1px #d0cbcb;
   border-radius: 21px;
 }
 @keyframes App-logo-spin {
@@ -160,7 +139,9 @@ code{
 }
 .mapgrid{
   background: #FAFAFA;
-  
+}
+* {
+	outline: none!important;
 }
 .mapheading{
   font-size: 1.4em;
@@ -183,8 +164,12 @@ box-shadow: 1px 2px 0px #e8e8e8;
   border-radius: 25px;
   color:#fff;
   padding: 11px 23px 13px 25px;
+  border:0px;
 }
-
+.btn-default:hover{
+  color:#fff!important;
+  font-weight: 600;
+}
 .mappush{
 position: relative;
 z-index: 99999;
