@@ -185,3 +185,7 @@ top: 10em;
   color: #fff !important;
   font-weight: bold;
 }
+
+.getting-stared-container .col-sm-4 {
+  padding: 0 70px;
+}

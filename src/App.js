@@ -1,3 +1,4 @@
+/*eslint-disable */
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import wallet from './wallet.png';
@@ -11,7 +12,7 @@ import send from './sendfund.png';
 import buy from './buy.png';
 import recieve from './recieve.png';
 import logo from './logo.png';
-import {FormGroup, FormControl,Navbar, Nav, NavItem, NavDropdown, MenuItem, ControlLabel, InputGroup, Button, Grid, Row, Col, Glyphicon,Media, Jumbotron} from 'react-bootstrap';
+import {FormGroup, FormControl, Button, Grid, Row, Col,Media, Jumbotron} from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
@@ -93,38 +94,46 @@ class App extends Component {
      </div>  
      <div className="getstart">
      <br/><br/><br/><br/>
-     <center><p className="startbutton"><h4 className="gradianr-title">GETTING STARTED</h4></p></center>
-     <Grid>
+    <center>
+      <div className="startbutton">
+        <h4 className="gradianr-title">GETTING STARTED</h4>
+      </div>
+    </center>
+     <Grid className="getting-stared-container">
      <Row className="show-grid">
-     <Col sm={3} smOffset={1}>
-     <code>
-     <p className="startimg"><img src={profile} width={64} align="middle"/></p>
-     <h4 style={{textAlign:'center',color:'#8B9093',fontWeight:'600',marginTop:'3em'}}>1. SIGN UP</h4>
-     <p style={{textAlign:'center',color:'#BBBEC0',fontSize:'17px'}}>Create a digital currency wallet where you can securely store digital currency.</p>
-     </code>
-     </Col>
-     <Col sm={3} smOffset={1}>
-     <code><p className="startimg"><img src={wallet} width={64} align="middle"/></p>
-     <h4 style={{textAlign:'center',color:'#8B9093',fontWeight:'600',marginTop:'3em'}}>2. CONNECT</h4>
-     <p style={{textAlign:'center',color:'#BBBEC0',fontSize:'17px'}}>Connect your bank account,debit card, or credit card so that you can exchangedigita currency into and out of your locat currency .</p>
-     </code>
-     </Col>
-     <Col sm={3} smOffset={1}>
-     <code><p className="startimg"><img src={recipt} width={64} align="middle"/></p>
-     <h4 style={{textAlign:'center',color:'#8B9093',fontWeight:'600',marginTop:'3em'}}>3. START TRADING</h4>
-     <p style={{textAlign:'center',color:'#BBBEC0',fontSize:'17px'}}>Buy or sell bitcoin to begin using the future.</p>
-     </code>
-     </Col>
+       <Col sm={4}>
+         <code>
+         <p className="startimg"><img src={profile} width={64} align="middle"/></p>
+         <h4 style={{textAlign:'center',color:'#8B9093',fontWeight:'600',marginTop:'3em'}}>1. SIGN UP</h4>
+         <p style={{textAlign:'center',color:'#BBBEC0',fontSize:'17px'}}>Create a digital currency wallet where you can securely store digital currency.</p>
+         </code>
+         </Col>
+         <Col sm={4}>
+         <code><p className="startimg"><img src={wallet} width={64} align="middle"/></p>
+         <h4 style={{textAlign:'center',color:'#8B9093',fontWeight:'600',marginTop:'3em'}}>2. CONNECT</h4>
+         <p style={{textAlign:'center',color:'#BBBEC0',fontSize:'17px'}}>Connect your bank account,debit card, or credit card so that you can exchangedigita currency into and out of your locat currency .</p>
+         </code>
+         </Col>
+         <Col sm={4}>
+         <code><p className="startimg"><img src={recipt} width={64} align="middle"/></p>
+         <h4 style={{textAlign:'center',color:'#8B9093',fontWeight:'600',marginTop:'3em'}}>3. START TRADING</h4>
+         <p style={{textAlign:'center',color:'#BBBEC0',fontSize:'17px'}}>Buy or sell bitcoin to begin using the future.</p>
+         </code>
+       </Col>
      </Row>
      </Grid>  
      </div>
      <div className="wallet">
      <br/><br/><br/><br/>
-     <center><p className="startbutton"><h4 className="gradianr-title">New to Wallet?</h4></p></center>
+     <center>
+      <div className="startbutton">
+        <h4 className="gradianr-title">New to Wallet?</h4>
+      </div>
+     </center>
      <Grid>
      <Row className="show-grid">
      <Col sm={3} smOffset={1}>
-     <code> <Media><Media.Left align="middle"><img width={50} height={50} src={buy} class="pull-left"/></Media.Left>
+     <code> <Media><Media.Left align="middle"><img width={50} height={50} src={buy} className="pull-left"/></Media.Left>
      <Media.Body> <Media.Heading style={{color:'#8B9093'}}>BUY</Media.Heading>
      <p style={{textAlign:'left',color:'#BBBEC0',fontSize:'14px'}}>Buy Bitcoin quickly and easily using a debit card or bank account.</p>
      </Media.Body>
@@ -132,7 +141,7 @@ class App extends Component {
      </code>
      </Col>
      <Col sm={3} smOffset={3}>
-     <code><Media><Media.Left align="middle"><img width={50} height={50} src={send} class="pull-left"/></Media.Left>
+     <code><Media><Media.Left align="middle"><img width={50} height={50} src={send} className="pull-left"/></Media.Left>
      <Media.Body> <Media.Heading style={{color:'#8B9093'}}>SEND</Media.Heading>
      <p style={{textAlign:'left',color:'#BBBEC0',fontSize:'14px'}}>Send money,shop and play games online with just a few clicks .</p>
      </Media.Body>
@@ -143,7 +152,7 @@ class App extends Component {
      <br/><br/><br/>
      <Row className="show-grid">
      <Col sm={3} smOffset={1}>
-     <code><Media><Media.Left align="middle"><img width={50} height={50} src={store} class="pull-left"/></Media.Left>
+     <code><Media><Media.Left align="middle"><img width={50} height={50} src={store} className="pull-left"/></Media.Left>
      <Media.Body> <Media.Heading style={{color:'#8B9093'}}>STORE</Media.Heading>
      <p style={{textAlign:'left',color:'#BBBEC0',fontSize:'14px'}}>Store your bitcoins with the confidence that your money is accesile to you.</p>
      </Media.Body>
@@ -151,7 +160,7 @@ class App extends Component {
      </code>
      </Col>
      <Col sm={3} smOffset={3}>
-     <code><Media><Media.Left align="middle"><img width={50} height={50} src={recieve} class="pull-left"/></Media.Left>
+     <code><Media><Media.Left align="middle"><img width={50} height={50} src={recieve} className="pull-left"/></Media.Left>
      <Media.Body> <Media.Heading style={{color:'#8B9093'}}>RECEIVE</Media.Heading>
      <p style={{textAlign:'left',color:'#BBBEC0',fontSize:'14px'}}>Recieve funds in seconds and request bitcoins from email address.</p>
      </Media.Body>
@@ -163,7 +172,7 @@ class App extends Component {
      <br/><br/><br/>
      <Grid>
      <Row className="show-grid">
-     <Col sm={5} smOffset={3}>
+     <Col sm={6} smOffset={3}>
      <Jumbotron>
      <code>
      <h4 className="mapheading">Already have a wallet?</h4>
@@ -204,15 +213,13 @@ class App extends Component {
      <Jumbotron style={{borderRadius:'1em',position:'relative',bottom:'125px'}}>
      <h4 className="mapheading">Subscribe</h4>
      <p style={{color:'#9BA0A2',fontSize:'1.2em'}}>and stay updated on Australia Bitcoin news and discounts</p>
-     <p>
-        <FormGroup controlId="formValidationSuccess3" validationState="success">
-            
-          <FormControl style={{border:'1px solid #e6dcdc',boxShadow:'1px 1px 1px #cccccc'}} type="text" placeholder="Enter your email address" />
-            <FormControl.Feedback>
-            <Button bsStyle="primary">Get start</Button>
-          </FormControl.Feedback>
-        </FormGroup>
-    </p>
+      <FormGroup controlId="formValidationSuccess3" validationState="success">
+          
+        <FormControl style={{border:'1px solid #e6dcdc',boxShadow:'1px 1px 1px #cccccc'}} type="text" placeholder="Enter your email address" />
+          <FormControl.Feedback>
+          <Button bsStyle="primary">Get start</Button>
+        </FormControl.Feedback>
+      </FormGroup>
     </Jumbotron>
     </code>
     </Col>
