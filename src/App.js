@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
-import Header from './header';
-import Feature from './feature';
-import Start from './start';
-import Wallet from './wallet';
 import wallet from './wallet.png';
-import Map from './map';
 import profile from './profile.png';
 import recipt from './recipt.png';
 import './App.css';
@@ -16,7 +11,6 @@ import send from './sendfund.png';
 import buy from './buy.png';
 import recieve from './recieve.png';
 import logo from './logo.png';
-import Footer from './footer';
 import {FormGroup, FormControl,Navbar, Nav, NavItem, NavDropdown, MenuItem, ControlLabel, InputGroup, Button, Grid, Row, Col, Glyphicon,Media, Jumbotron} from 'react-bootstrap';
 import './App.css';
 
@@ -24,7 +18,6 @@ class App extends Component {
   render() {  
     return ( 
        <div className="banner"> 
-       <Header />
        <Grid>
        <Row className="show-grid">
        <Col sm={6} smOffset={3}>
@@ -82,7 +75,7 @@ class App extends Component {
      </Grid>
      <Grid>
      <br/><br/><br/>
-     <Row className="show-grid" id="featuregrid">
+     <Row className="show-grid featuregrid">
      <Col sm={4}>
      <code><p className="three-feature">$37B+</p> 
      <h4 style={{color:'#959A9C'}}>TRANSFERED IN LAST 24H</h4></code>
@@ -211,13 +204,15 @@ class App extends Component {
      <Jumbotron style={{borderRadius:'1em',position:'relative',bottom:'125px'}}>
      <h4 className="mapheading">Subscribe</h4>
      <p style={{color:'#9BA0A2',fontSize:'1.2em'}}>and stay updated on Australia Bitcoin news and discounts</p>
-     <p><FormGroup controlId="formValidationSuccess3" validationState="success">
-    
-    <FormControl style={{border:'1px solid #e6dcdc',boxShadow:'1px 1px 1px #cccccc'}} type="text" placeholder="Enter your email address" />
-    <FormControl.Feedback>
-    <Button bsStyle="primary">Get start</Button>
-    </FormControl.Feedback>
-    </FormGroup></p>
+     <p>
+        <FormGroup controlId="formValidationSuccess3" validationState="success">
+            
+          <FormControl style={{border:'1px solid #e6dcdc',boxShadow:'1px 1px 1px #cccccc'}} type="text" placeholder="Enter your email address" />
+            <FormControl.Feedback>
+            <Button bsStyle="primary">Get start</Button>
+          </FormControl.Feedback>
+        </FormGroup>
+    </p>
     </Jumbotron>
     </code>
     </Col>
@@ -225,23 +220,6 @@ class App extends Component {
     </Grid>
     <Grid>
     <Row className="show-grid">
-    <Navbar>
-    <Col sm={6} smOffset={4} style={{marginTop:'-9em'}}>
-    <code>
-    <Nav className="navbar-bottom">
-    <NavItem eventKey={1} href="#">
-     About &nbsp;&nbsp; |
-    </NavItem> 
-    <NavItem eventKey={2} href="#">
-     Terms of Service &nbsp;&nbsp; |
-    </NavItem>
-    <NavItem eventKey={2} href="#">
-     Privacy
-    </NavItem>
-    </Nav>
-    </code>
-    </Col>
-    </Navbar>
     </Row>
     </Grid>
 

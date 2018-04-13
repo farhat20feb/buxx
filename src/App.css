@@ -14,12 +14,7 @@ code{
 .banner{
   background:#924284; 
 }
-.navbar-default{
-  background:linear-gradient(to bottom, #944384 0%, #924284 100%)!important; 
-  border:none!important; 
-  padding-top: 30px;
-  background: transparent!important;
-}
+
 .logo-title{
   color:#fff!important;
   font-weight: 600;
@@ -32,17 +27,7 @@ code{
   margin-top: 10px;
   margin-left: 12px;
 }
-.navbar-nav>li>a{
-  color:#fff!important;
-  font-size: 11px;
-}
-.signup{
-  background: #AB77A2;
-    border-radius: 25px;
-    height: 30px;
-    padding-top: 6px;
-    margin-top: 10px;
-}
+
 .banner-heading{
   color:#fff;
   padding-top: 2.7em;
@@ -58,9 +43,7 @@ code{
   padding: 10px;
   border-radius: 30px;
 }
-.signup a{
-  margin-top: -15px;
-}
+
 #formValidationSuccess3{
   border-radius: 25px;
   height: 50px;
@@ -101,7 +84,7 @@ code{
 }
 .startbutton{
   width: 300px;
-  box-shadow: 1px 1px 1px grey;
+  box-shadow: 0 3px 8px rgba(0,0,0,.37282);
   padding: 7px 5px 5px 5px;
   border-radius: 42px;
   font-weight: bolder;
@@ -117,7 +100,7 @@ code{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#featuregrid{
+.featuregrid{
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
@@ -130,7 +113,7 @@ code{
   text-align: center;
   background: #FFFFFF;
   padding: 46px 35px 35px 42px;
-  box-shadow: 1px 1px 1px #d0cbcb;
+  box-shadow: 0 3px 8px rgba(0,0,0,.37282);
   border-radius: 21px;
 }
 @keyframes App-logo-spin {
@@ -157,19 +140,9 @@ code{
 text-align: center;
 background: #fff;
 border: 1px solid #f1e9e9;
-box-shadow: 1px 2px 0px #e8e8e8;
+box-shadow: 0 3px 8px rgba(0,0,0,.37282);
 }
-.buycoin{
-  background: linear-gradient(to right, #f9b64a 0%, #f88127 100%);
-  border-radius: 25px;
-  color:#fff;
-  padding: 11px 23px 13px 25px;
-  border:0px;
-}
-.btn-default:hover{
-  color:#fff!important;
-  font-weight: 600;
-}
+
 .mappush{
 position: relative;
 z-index: 99999;
@@ -200,4 +173,15 @@ top: 10em;
   background: linear-gradient(to right, #8E4384 , #2C4C7D);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.buycoin {
+  width: 50%!important;
+  border-radius: 25px!important;
+  background: linear-gradient(160deg,#fad961,#f88f31 70.3%,#f7701c);
+  font-size: 12px;
+  padding: 11px 23px 13px 25px;
+  border: none;
+  color: #fff !important;
+  font-weight: bold;
 }
