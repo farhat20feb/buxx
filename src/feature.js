@@ -9,8 +9,8 @@ class Feature extends Component{
                <Grid>
        <Row className="show-grid">
     <Col xs={6} xsOffset={3}>
-         <h3 style={{textAlign:'center'}}>Lorem lpsum dolor</h3>
-         <p style={{textAlign:'-webkit-center'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+         <h3 className="featuretitle">Lorem lpsum dolor</h3>
+         <p style={{textAlign:'-webkit-center',color:'#AEB2B4',fontSize:'1.2em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
      </Col>
   </Row>
   </Grid>

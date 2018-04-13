@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
-import logo from './logo.svg';
 import Header from './header';
 import Feature from './feature';
 import Start from './start';
 import Wallet from './wallet';
+import Map from './map';
+import Footer from './footer';
 import {FormGroup, FormControl, ControlLabel, InputGroup, Button, Grid, Row, Col, Glyphicon} from 'react-bootstrap';
 import './App.css';
 
@@ -15,7 +16,7 @@ class App extends Component {
        <Header />
        <Grid>
        <Row className="show-grid">
-       <Col sm={4} smOffset={4}>
+       <Col sm={6} smOffset={3}>
        <code><center> <h1 className="text-center banner-heading">Buy and sell Bitcoins</h1>
        <p className="text-center banner-subheading">Join the financial revolution in Australia</p>
        </center></code>
@@ -30,7 +31,7 @@ class App extends Component {
     
     <FormControl type="text" placeholder="Enter your email address" />
     <FormControl.Feedback>
-    <Button bsStyle="primary">Get start</Button>
+    <Button bsStyle="primary">Get started</Button>
     </FormControl.Feedback>
   </FormGroup>
  </code>
@@ -61,6 +62,10 @@ class App extends Component {
          <Start />
 
           <Wallet />
+
+           <Map />
+
+            <Footer />
       </div>
     );
   }

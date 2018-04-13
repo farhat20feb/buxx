@@ -11,7 +11,7 @@ class Start extends Component{
         return(
         <div className="getstart">
         <br/><br/><br/><br/>
-          <center><Button bsStyle="default" bsSize="large" className="startbutton">GETTING STARTED</Button></center>
+          <center><p className="startbutton"><h4 className="gradianr-title">GETTING STARTED</h4></p></center>
        <Grid>
        <Row className="show-grid">
     <Col sm={3} smOffset={1}>

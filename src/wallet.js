@@ -12,20 +12,20 @@ class Wallet extends Component{
         return(
         <div className="wallet">
         <br/><br/><br/><br/>
-          <center><Button bsStyle="default" bsSize="large" className="startbutton">NEW TO WALLETS?</Button></center>
+        <center><p className="startbutton"><h4 className="gradianr-title">New TO Wallet?</h4></p></center>
        <Grid>
        <Row className="show-grid">
-    <Col sm={4} smOffset={2}>
-    <code> <Media><Media.Left align="middle"><img width={64} height={64} src={buy} class="pull-left"/></Media.Left>
-    <Media.Body> <Media.Heading>BUY</Media.Heading>
+    <Col sm={3} smOffset={1}>
+    <code> <Media><Media.Left align="middle"><img width={50} height={50} src={buy} class="pull-left"/></Media.Left>
+    <Media.Body> <Media.Heading style={{color:'#8B9093'}}>BUY</Media.Heading>
      <p style={{textAlign:'left',color:'#BBBEC0',fontSize:'14px'}}>Buy Bitcoin quickly and easily using a debit card or bank account.</p>
      </Media.Body>
       </Media>
      </code>
      </Col>
-     <Col sm={4} smOffset={2}>
-     <code><Media><Media.Left align="middle"><img width={64} height={64} src={send} class="pull-left"/></Media.Left>
-     <Media.Body> <Media.Heading>SEND</Media.Heading>
+     <Col sm={3} smOffset={3}>
+     <code><Media><Media.Left align="middle"><img width={50} height={50} src={send} class="pull-left"/></Media.Left>
+     <Media.Body> <Media.Heading style={{color:'#8B9093'}}>SEND</Media.Heading>
      <p style={{textAlign:'left',color:'#BBBEC0',fontSize:'14px'}}>Send money,shop and play games online with just a few clicks .</p>
      </Media.Body>
      </Media>
@@ -34,17 +34,17 @@ class Wallet extends Component{
      </Row>
      <br/><br/><br/>
      <Row className="show-grid">
-     <Col sm={4} smOffset={2}>
-     <code><Media><Media.Left align="middle"><img width={64} height={64} src={store} class="pull-left"/></Media.Left>
-     <Media.Body> <Media.Heading>STORE</Media.Heading>
+     <Col sm={3} smOffset={1}>
+     <code><Media><Media.Left align="middle"><img width={50} height={50} src={store} class="pull-left"/></Media.Left>
+     <Media.Body> <Media.Heading style={{color:'#8B9093'}}>STORE</Media.Heading>
      <p style={{textAlign:'left',color:'#BBBEC0',fontSize:'14px'}}>Store your bitcoins with the confidence that your money is accesile to you.</p>
      </Media.Body>
       </Media>
      </code>
      </Col>
-     <Col sm={4} smOffset={2}>
-     <code><Media><Media.Left align="middle"><img width={64} height={64} src={recieve} class="pull-left"/></Media.Left>
-     <Media.Body> <Media.Heading>RECEIVE</Media.Heading>
+     <Col sm={3} smOffset={3}>
+     <code><Media><Media.Left align="middle"><img width={50} height={50} src={recieve} class="pull-left"/></Media.Left>
+     <Media.Body> <Media.Heading style={{color:'#8B9093'}}>RECEIVE</Media.Heading>
      <p style={{textAlign:'left',color:'#BBBEC0',fontSize:'14px'}}>Recieve funds in seconds and request bitcoins from email address.</p>
      </Media.Body>
      </Media>

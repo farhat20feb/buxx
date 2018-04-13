@@ -28,11 +28,19 @@
   background:linear-gradient(to bottom, #944384 0%, #924284 100%)!important; 
   border:none!important; 
   padding-top: 30px;
+  background: transparent!important;
 }
 .logo-title{
   color:#fff!important;
+  font-weight: 500;
+  font-size:24px;
+}
+.logo-title-bottom{
+  color:#fff!important;
   font-weight: 600;
   font-size:25px;
+  margin-top: 10px;
+  margin-left: 12px;
 }
 .navbar-nav>li>a{
   color:#DCC2D7!important;
@@ -74,9 +82,12 @@
     margin-top: 9px;
     border-radius: 22px;
     margin-right:10px;
-    background: #F8AA42;
+    background: linear-gradient(to right, #f9b54a 0%, #f89132 100%);
     border: 0px;
     color:#fff!important;
+    font-family: serif;
+    font-size: 13px;
+    font-weight: 500;
 }
 .canvs{
   height:370px!important;
@@ -89,23 +100,33 @@
 }
 .three-feature{
   margin-left: 20px;
-  font-size: 4em;
-  color: #614781;
+  font-size: 5em;
+  background: linear-gradient(to right, #8E4384 , #4D4980);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 .getstart{
   background: #FAFAFA;
   padding-bottom: 190px;
 }
 .startbutton{
-  padding: 20px 20px 20px 20px;
-  font-size: x-large;
+  width: 200px;
+  box-shadow: 1px 1px 1px grey;
+  padding: 7px 5px 5px 5px;
   border-radius: 42px;
   font-weight: bolder;
+  background: #FAFAFA;
+  position: relative;
+  bottom: 116px
+}
+.featuretitle{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
   background: linear-gradient(to right, #8E4384 , #2C4C7D);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  position: relative;
-  bottom: 116px;
 }
 #featuregrid{
   padding-top: 60px;
@@ -128,4 +149,59 @@ code{
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.mapgrid{
+  background: #fff;
+  padding-top: 120px;
+  padding-bottom: 150px;;
+}
+.mapheading{
+  font-size: 1.4em;
+  font-weight: bolder;
+  background: -webkit-gradient(linear, left top, right top, from(#8E4384) , to(#2C4C7D));
+  background: -webkit-linear-gradient(left, #8E4384 , #2C4C7D);
+  background: -o-linear-gradient(left, #8E4384 , #2C4C7D);
+  background: linear-gradient(to right, #8E4384 , #2C4C7D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jumbotron{
+text-align: center;
+background: #fff;
+border: 1px solid #f1e9e9;
+}
+.buycoin{
+  background: linear-gradient(to right, #f9b64a 0%, #f88127 100%);
+  border-radius: 25px;
+  color:#fff;
+  padding: 11px 23px 13px 25px;
+}
+.mt-5{
+  padding-top: 14em;
+}
+.mappush{
+position: relative;
+z-index: 99999;
+top: 10em;
+}
+.navbar-bottom li a{
+  font-size: 1.1em;
+  color:#fff!important;
+  font-weight: 500;
+}
+.footer-grid{
+  background:linear-gradient(to bottom, #4b4a80 0%, #8d4384 100%);
+}
+.canvs-footer{
+  height:270px!important;
+}
+.gradianr-title{
+  font-size: 1.4em;
+  font-weight: 600;
+  background: -webkit-gradient(linear, left top, right top, from(#8E4384) , to(#2C4C7D));
+  background: -webkit-linear-gradient(left, #8E4384 , #2C4C7D);
+  background: -o-linear-gradient(left, #8E4384 , #2C4C7D);
+  background: linear-gradient(to right, #8E4384 , #2C4C7D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
