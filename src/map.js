@@ -8,22 +8,8 @@ class Map extends Component{
     render(){
         return(
       <div className="mapgrid">
-            <Grid>
-       <Row className="show-grid">
-       <Col sm={5} smOffset={3}>
-       <Jumbotron>
-        <code><h4 className="mapheading">Already have a wallet?</h4>
-        <p style={{color:'#9BA0A2',fontSize:'1.2em'}}>Get Started with Bitcoin now</p>
-        <p><Button className="buycoin">Buy Coins</Button></p>
-        </code>
-        </Jumbotron>
-       </Col>
-       
-       </Row>
-       </Grid>
-      
        <Grid>
-       <Row className="show-grid mt-5">
+       <Row className="show-grid mt-5" style={{bottom:'18em',position:'relative' }}>
        <Col sm={4} smPush={2}>
        <Jumbotron className="mappush">
         <code><p><img src={Icon}/></p>

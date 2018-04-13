@@ -13,7 +13,7 @@ class Header extends Component{
         <Col sm={5}>
         <Navbar.Header>
     <Navbar.Brand>
-    <Col sm={3}><img src={logo} width={60} style={{marginTop:'-11px'}}/></Col>  <Col sm={2} smOffset={1} ><a href="#home" className="logo-title">BUXX</a></Col>
+    <Col sm={3}><img src={logo} width={60} style={{marginTop:'-11px'}}/></Col>  <Col sm={2} smOffset={1} ><a href="#" className="logo-title">BUXX</a></Col>
     </Navbar.Brand>
    
   </Navbar.Header>

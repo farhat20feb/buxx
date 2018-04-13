@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -12,6 +15,10 @@
   height: 150px;
   padding: 20px;
   color: white;
+}
+
+code{
+  font-family: 'Open Sans', sans-serif!important;
 }
 
 .App-title {
@@ -32,7 +39,7 @@
 }
 .logo-title{
   color:#fff!important;
-  font-weight: 500;
+  font-weight: 600;
   font-size:24px;
 }
 .logo-title-bottom{
@@ -43,7 +50,7 @@
   margin-left: 12px;
 }
 .navbar-nav>li>a{
-  color:#DCC2D7!important;
+  color:#fff!important;
   font-size: 11px;
 }
 .signup{
@@ -55,13 +62,13 @@
 }
 .banner-heading{
   color:#fff;
-  font-weight: 400;
-  padding-top: 4em;
-  font-size: 2em;
+  padding-top: 2.7em;
+  font-size: 3.5em;
+  font-family: 'Open Sans', sans-serif;
 }
 .banner-subheading{
-  color:#D2C2D6;
-  font-size: 1.1em;
+  color:#e9e2ea;
+  font-size: 1.31aem;
 }
 .search-box{
   width:300px;
@@ -111,7 +118,7 @@
   padding-bottom: 190px;
 }
 .startbutton{
-  width: 200px;
+  width: 300px;
   box-shadow: 1px 1px 1px grey;
   padding: 7px 5px 5px 5px;
   border-radius: 42px;
@@ -138,6 +145,7 @@ code{
 }
 .wallet{
   background: #fff;
+  padding-bottom: 30em;
 }
 .startimg{
   text-align: center;
@@ -151,9 +159,8 @@ code{
   to { transform: rotate(360deg); }
 }
 .mapgrid{
-  background: #fff;
-  padding-top: 120px;
-  padding-bottom: 150px;;
+  background: #FAFAFA;
+  
 }
 .mapheading{
   font-size: 1.4em;
@@ -169,6 +176,7 @@ code{
 text-align: center;
 background: #fff;
 border: 1px solid #f1e9e9;
+box-shadow: 1px 2px 0px #e8e8e8;
 }
 .buycoin{
   background: linear-gradient(to right, #f9b64a 0%, #f88127 100%);
@@ -176,9 +184,7 @@ border: 1px solid #f1e9e9;
   color:#fff;
   padding: 11px 23px 13px 25px;
 }
-.mt-5{
-  padding-top: 14em;
-}
+
 .mappush{
 position: relative;
 z-index: 99999;
@@ -191,13 +197,18 @@ top: 10em;
 }
 .footer-grid{
   background:linear-gradient(to bottom, #4b4a80 0%, #8d4384 100%);
+  padding-bottom: 10em;
 }
 .canvs-footer{
-  height:270px!important;
+  position: absolute;
+  height: 300px;
+  left: 0;
+  bottom: 0px;
+  overflow: hidden;
 }
 .gradianr-title{
-  font-size: 1.4em;
-  font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 900;
   background: -webkit-gradient(linear, left top, right top, from(#8E4384) , to(#2C4C7D));
   background: -webkit-linear-gradient(left, #8E4384 , #2C4C7D);
   background: -o-linear-gradient(left, #8E4384 , #2C4C7D);

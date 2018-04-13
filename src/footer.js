@@ -10,8 +10,8 @@ class Footer extends Component{
        <div className="footer-grid">
          <Grid>
        <Row className="show-grid">
-       <Col sm={7} smOffset={2}>
-       <code> <Jumbotron style={{borderRadius:'1em',position:'relative',bottom:'116px'}}>
+       <Col sm={6} smOffset={3}>
+       <code> <Jumbotron style={{borderRadius:'1em',position:'relative',bottom:'125px'}}>
         <h4 className="mapheading">Subscribe</h4>
         <p style={{color:'#9BA0A2',fontSize:'1.2em'}}>and stay updated on Australia Bitcoin news and discounts</p>
         <p><FormGroup controlId="formValidationSuccess3" validationState="success">
@@ -32,7 +32,7 @@ class Footer extends Component{
        <Row className="show-grid">
        
        <Navbar>
-       <Col sm={6} smOffset={3} style={{marginTop:'-9em'}}>
+       <Col sm={6} smOffset={4} style={{marginTop:'-9em'}}>
        <code>
     <Nav className="navbar-bottom">
     <NavItem eventKey={1} href="#">
@@ -52,7 +52,7 @@ class Footer extends Component{
 </Row>
 </Grid>
 
- <Grid>
+ <Grid style={{position:'absolute',height:'110px'}}>
        <Row className="show-grid">
         <code><Particles 
              canvasClassName="canvs-footer"
@@ -72,12 +72,14 @@ class Footer extends Component{
               }}
             /></code>
        </Row>
+       </Grid>
+       <Grid>
        <Row className="show-grid">
-       <Col sm={7} smOffset={4} style={{marginTop:'-9em'}}><Col sm={1} style={{marginTop:'1.1em'}}><code><img src={logo} width={59}/></code></Col> <Col sm={2}><code><h3 className="logo-title-bottom">BUXX</h3></code></Col>
+       <Col sm={7} smOffset={5}><Col sm={1}><code><img src={logo} width={59} style={{marginTop:'18px'}}/></code></Col> <Col sm={2}><code><h3 className="logo-title-bottom">BUXX</h3></code></Col>
        </Col>
        </Row>
        <Row className="show-grid">
-       <code> <Col sm={6} smOffset={3} style={{marginTop:'-4em'}}><p style={{color:'#fff'}}>@2017 GLobal Internet Ventures.All rights reserved.</p></Col></code>
+       <code> <Col sm={6} smOffset={4}><p style={{color:'#fff',marginLeft:'25px'}}>@2017 GLobal Internet Ventures.All rights reserved.</p></Col></code>
        </Row>
        </Grid>
         
